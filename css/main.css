@@ -9,8 +9,17 @@
     font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'plante';
+}
+
+a:visited, a:link, a:hover, a:active{
+    text-decoration: none;
+    color: black;
 }
 
 nav{
@@ -63,11 +72,21 @@ nav{
     background-color: aquamarine;
 }
 
-#content{
+#products, #services{
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: flex-end;
+    background-color: rgb(38, 38, 38);
+}
+
+#services{
+    background-color: white;
+}
+
+#contact{
+    width: 100%;
+    height: 300px;
     background-color: rgb(38, 38, 38);
 }
 
@@ -83,9 +102,9 @@ nav{
     animation-iteration-count: 8;
     animation-direction: alternate;
     animation-fill-mode: both;
-
-    anim
 }
+
+
 
 @media screen and (min-width: 642px) {
     #menu-icon{
