@@ -3,5 +3,6 @@ $(document).ready(function(){
         $("#menu").toggleClass("active");
 
         $(this).toggleClass("active");
+        $("nav").toggleClass("active");
     });
 });

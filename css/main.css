@@ -25,6 +25,13 @@ a:visited, a:link, a:hover, a:active{
 nav{
     display: flex;
     flex-direction: column;
+    height: 54px;
+    transition: 0.5s ease-in-out all;
+    overflow: hidden;
+}
+
+nav.active{
+    height: fit-content;
 }
 
 #menu-icon{
@@ -107,6 +114,10 @@ nav{
 
 
 @media screen and (min-width: 642px) {
+    nav{
+        height: fit-content;
+    }
+    
     #menu-icon{
         display: none;
     }
