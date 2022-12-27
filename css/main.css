@@ -1,7 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
+/*Custom Web Fonts*/
+@font-face {
+    font-family: 'plante';
+    src: url('../fonts/plante-webfont.woff2') format('woff2'),
+         url('../fonts/plante-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    font-family: Poppins;
+    font-family: 'plante';
 }
 
 nav{
