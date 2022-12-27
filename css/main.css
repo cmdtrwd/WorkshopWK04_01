@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-icon{
+    background-color: darksalmon;
+    width: 50px;
+    height: 50px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#menu li{
+    padding: 8px 32px;
+}
+
