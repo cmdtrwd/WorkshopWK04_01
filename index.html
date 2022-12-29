@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,16 @@
     <title>Workshop WK04</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <script src="https://kit.fontawesome.com/ff66d0d2f0.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
     <nav>
         <div id="menu-icon">
@@ -19,16 +25,16 @@
             <i class="fa-solid fa-xmark"></i>
         </div>
         <ul id="menu">
-            <a href="#menu-icon">                
+            <a href="#menu-icon">
                 <li>Home</li>
             </a>
-            <a href="#products">                
+            <a href="#products">
                 <li>Products</li>
             </a>
-            <a href="#services">                
+            <a href="#services">
                 <li>Services</li>
             </a>
-            <a href="#contact">                
+            <a href="#contact">
                 <li>Contact</li>
             </a>
         </ul>
@@ -37,12 +43,17 @@
         <div class="bar"></div>
     </section>
     <section id="services">
-
+        <div data-aos="fade-right" class="animate_box"></div>
     </section>
 
     <footer id="contact">
 
     </footer>
-    
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
+
 </html>
